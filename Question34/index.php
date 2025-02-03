@@ -123,6 +123,7 @@ button:hover {
     <!-- php -->
 
   <?php
+      print_r(_POST)
                 if(isset($_POST['submit'])){
 
                     $principal = [];
